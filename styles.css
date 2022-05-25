@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: burlywood;
+}
+
+.navtext{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+.navtext::selection{
+background-color: rgb(235, 211, 175);
+color: black;
+}
+
+.navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 13px; 
+    line-height: 0;
+}
+ 
+.photos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.redirect-text{
+font-family: monospace;
+text-align: center;
+font-weight: bold;
+opacity: 0.4;
+margin-top: 50px;
+}
